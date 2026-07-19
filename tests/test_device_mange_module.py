@@ -34,3 +34,4 @@ class TestDeviceManageModule:
         print("device added sucsusfully")
 
         login_page.driver.quit()
+        print("driver closed")
